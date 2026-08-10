@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arda Bayhan — Full-Stack &amp; AI Agent Developer</title>
+  <meta name="description" content="Backend'den arayüze web uygulamaları, on-prem AI ajanları ve mobil uygulamalar geliştiren yazılım mühendisi. Node.js, TypeScript, React, AWS, React Native." />
+  <meta property="og:title" content="Arda Bayhan — Full-Stack &amp; AI Agent Developer" />
+  <meta property="og:description" content="Web apps from backend to UI, on-prem AI agents and mobile apps. Node.js, TypeScript, React, AWS, React Native." />
+  <meta property="og:url" content="https://ardabayhan.com" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%2310151F'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%23FFB454' font-family='monospace' font-weight='bold'>ab</text></svg>" />
+</head>
+<body>
+
+  <header class="nav">
+    <a class="wordmark" href="#top">arda<span class="dot">.</span>bayhan</a>
+    <nav class="nav-links" aria-label="Site">
+      <a href="#hizmetler" data-i18n="nav_services">Hizmetler</a>
+      <a href="#stack" data-i18n="nav_stack">Teknolojiler</a>
+      <a href="#iletisim" data-i18n="nav_contact">İletişim</a>
+    </nav>
+    <div class="lang-switch" role="group" aria-label="Dil / Language">
+      <button type="button" data-lang="tr" aria-pressed="true">TR</button>
+      <span aria-hidden="true">/</span>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="availability reveal" style="--d:0">
+          <span class="pulse" aria-hidden="true"></span>
+          <span data-i18n="hero_available">Yeni projelere açık</span>
+        </p>
+        <h1 class="reveal" style="--d:1">Arda<br />Bayhan<span class="dot">.</span></h1>
+        <p class="hero-sub reveal" style="--d:2" data-i18n="hero_sub">
+          Backend'den arayüze web uygulamaları, on-prem AI ajanları ve mobil uygulamalar geliştiriyorum.
+          Fikri; test edilmiş, ölçeklenebilir ve zamanında teslim edilen ürüne dönüştürürüm.
+        </p>
+        <div class="hero-cta reveal" style="--d:3">
+          <a class="btn btn-primary" href="mailto:contact@ardabayhan.com" data-i18n="hero_cta">Proje konuşalım</a>
+          <a class="btn btn-ghost" href="#hizmetler" data-i18n="hero_cta2">Neler yapıyorum</a>
+        </div>
+      </div>
+
+      <figure class="terminal reveal" style="--d:2" aria-label="API response card">
+        <figcaption class="terminal-bar">
+          <span class="traffic" aria-hidden="true"><i></i><i></i><i></i></span>
+          <code class="terminal-cmd">curl ardabayhan.com/api/v1/arda</code>
+        </figcaption>
+        <pre class="terminal-body"><code><span class="t-status">HTTP/1.1 200 OK</span>
+{
+  <span class="t-key">"name"</span>: <span class="t-str">"Arda Bayhan"</span>,
+  <span class="t-key">"role"</span>: <span class="t-str">"Full-Stack &amp; AI Agent Developer"</span>,
+  <span class="t-key">"focus"</span>: [<span class="t-str">"backend"</span>, <span class="t-str">"frontend"</span>, <span class="t-str">"ai-agents"</span>, <span class="t-str">"mobile"</span>],
+  <span class="t-key">"location"</span>: <span class="t-str">"Türkiye (UTC+3)"</span>,
+  <span class="t-key">"available_for_hire"</span>: <span class="t-bool">true</span>,
+  <span class="t-key">"contact"</span>: <span class="t-str">"contact@ardabayhan.com"</span>
+}<span class="cursor" aria-hidden="true"></span></code></pre>
+      </figure>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="hizmetler">
+      <p class="eyebrow"><span class="dot">/</span><span data-i18n="services_eyebrow">hizmetler</span></p>
+      <h2 data-i18n="services_title">Neler yapıyorum</h2>
+      <div class="cards">
+        <article class="card">
+          <h3 data-i18n="s1_title">Backend &amp; API</h3>
+          <p data-i18n="s1_body">Node.js ve TypeScript ile servisler; AWS üzerinde serverless mimari (Lambda, SQS, DynamoDB). Bildirim altyapıları, entegrasyonlar, ölçeklenen API'lar.</p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="s2_title">Frontend &amp; Web</h3>
+          <p data-i18n="s2_body">React ve modern web araçlarıyla hızlı, erişilebilir arayüzler. Tasarımdan canlıya, uçtan uca web uygulamaları.</p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="s3_title">AI Ajanları &amp; LLM</h3>
+          <p data-i18n="s3_body">Kurum içinde (on-prem) çalışan AI ajanları ve LLM destekli özellikler. Veriniz dışarı çıkmadan, işinize göre kurgulanmış otomasyon.</p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="s4_title">Mobil Uygulama</h3>
+          <p data-i18n="s4_body">React Native ile iOS ve Android. Bildirimler, offline veri, store süreçleri dahil uçtan uca teslim.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ STACK ============ -->
+    <section class="section" id="stack">
+      <p class="eyebrow"><span class="dot">/</span><span data-i18n="stack_eyebrow">teknolojiler</span></p>
+      <h2 data-i18n="stack_title">Gündelik araç setim</h2>
+      <ul class="chips">
+        <li>TypeScript</li>
+        <li>Node.js</li>
+        <li>AWS Lambda</li>
+        <li>SQS</li>
+        <li>DynamoDB</li>
+        <li>React</li>
+        <li>TanStack Start</li>
+        <li>React Native</li>
+        <li>Realm</li>
+        <li>Jest</li>
+        <li>LLM / RAG</li>
+      </ul>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="iletisim">
+      <p class="eyebrow"><span class="dot">/</span><span data-i18n="contact_eyebrow">iletisim</span></p>
+      <h2 data-i18n="contact_title">Bir fikriniz mi var?</h2>
+      <p class="contact-sub" data-i18n="contact_sub">Projeni kısaca anlat, 24 saat içinde dönüş yaparım.</p>
+      <a class="contact-mail" href="mailto:contact@ardabayhan.com">contact@ardabayhan.com</a>
+      <div class="contact-links">
+        <a href="https://github.com/ardabayhan" target="_blank" rel="me noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/arda-bayhan-a428312a2/" target="_blank" rel="me noopener">LinkedIn</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <span>© 2026 Arda Bayhan</span>
+    <code>ardabayhan.com</code>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
