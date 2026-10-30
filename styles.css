@@ -331,8 +331,100 @@ h2 {
   background: var(--surface);
 }
 
+.section-sub { color: var(--muted); margin: -20px 0 32px; max-width: 56ch; }
+
+/* Timeline */
+.timeline {
+  list-style: none;
+  border-left: 1px solid var(--line);
+  margin-left: 6px;
+}
+
+.tl-item {
+  position: relative;
+  padding: 0 0 40px 30px;
+}
+
+.tl-item:last-child { padding-bottom: 0; }
+
+.tl-item::before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: 7px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px var(--bg);
+}
+
+.tl-date {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.tl-role {
+  font-family: var(--font-display);
+  font-variation-settings: "wdth" 108;
+  font-weight: 650;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.tl-org { color: var(--muted); font-size: 15.5px; margin-bottom: 12px; }
+
+.tl-desc { color: var(--muted); font-size: 15.5px; max-width: 66ch; }
+
+/* Posts */
+.posts {
+  list-style: none;
+  border-top: 1px solid var(--line);
+}
+
+.posts li { border-bottom: 1px solid var(--line); }
+
+.posts a {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 24px;
+  padding: 18px 0;
+  text-decoration: none;
+  color: var(--text);
+  transition: color 0.15s ease;
+}
+
+.posts a:hover { color: var(--accent); }
+
+.post-title { font-weight: 500; font-size: 17px; }
+
+.post-date {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.posts-more {
+  display: inline-block;
+  margin-top: 22px;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.posts-more:hover { color: var(--accent); }
+
+.posts-more::after { content: " →"; color: var(--accent); }
+
 /* Contact */
-.contact-sub { color: var(--muted); margin: -20px 0 32px; max-width: 50ch; }
 
 .contact-mail {
   display: inline-block;
@@ -419,6 +511,8 @@ h2 {
   .section { padding: 52px 20px; }
 
   .contact-links { flex-wrap: wrap; }
+
+  .posts a { flex-direction: column; gap: 4px; }
 
   .footer { flex-direction: column; gap: 8px; }
 }
