@@ -30,7 +30,7 @@ const STRINGS = {
     s4_body:
       "React Native ile iOS ve Android. Bildirimler, offline veri, store süreçleri dahil uçtan uca teslim.",
     exp_eyebrow: "deneyim",
-    exp_title: "Deneyim & eğitim",
+    exp_title: "Deneyim",
     exp1_date: "Haz 2026 — günümüz",
     exp1_role: "Software Engineer · Project Lead",
     exp1_org: "C2B Technology · Uzaktan",
@@ -38,8 +38,6 @@ const STRINGS = {
       "Enterprise Agent Operations Tools projesini yönetiyorum: teknik öncelikleri, görev sahipliğini ve " +
       "kilometre taşlarını belirliyor; web ve mobil ürünlerde full-stack geliştirmeye katkı veriyor; " +
       "entegrasyonları, bağımlılıkları ve teslimat kalitesini koordine ediyorum.",
-    exp2_date: "2023 — 2027",
-    exp2_role: "Bilgisayar Programcılığı",
     stack_eyebrow: "teknolojiler",
     stack_title: "Gündelik araç setim",
     posts_eyebrow: "yazilar",
@@ -86,7 +84,7 @@ const STRINGS = {
     s4_body:
       "iOS and Android with React Native. End-to-end delivery: push notifications, offline data, store submissions.",
     exp_eyebrow: "experience",
-    exp_title: "Experience & education",
+    exp_title: "Experience",
     exp1_date: "Jun 2026 — present",
     exp1_role: "Software Engineer · Project Lead",
     exp1_org: "C2B Technology · Remote",
@@ -94,8 +92,6 @@ const STRINGS = {
       "Leading the Enterprise Agent Operations Tools project: setting technical priorities, task ownership " +
       "and milestones; contributing full-stack development across web and mobile products; " +
       "coordinating integrations, dependencies and delivery quality.",
-    exp2_date: "2023 — 2027",
-    exp2_role: "Computer Programming",
     stack_eyebrow: "stack",
     stack_title: "Everyday toolkit",
     posts_eyebrow: "writing",
